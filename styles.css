@@ -11,6 +11,20 @@ body {
     margin: 0 auto;
 }
 
+header{
+    display: flex;
+    justify-content:right;
+    
+}
+
+button{
+    margin: 0 5px;
+    background-color: #cdcdcd;
+    border-color: #cdcdcd;
+    color: #780000;
+
+}
+
 nav{
     display: flex;
     justify-content: space-between;
