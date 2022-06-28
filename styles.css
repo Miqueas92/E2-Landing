@@ -6,8 +6,8 @@
 }
 
 body {
-    min-height: 100vh;
-    background-color: #cdcdcd; 
+    min-height: 120vh;
+    background: linear-gradient(to bottom, #5f0101, #dd7575); 
     margin: 0 auto;
 }
 
@@ -29,7 +29,13 @@ nav{
 
 }
 
-li{
+a:hover{
+    cursor: pointer;
+    font-size: 22px;
+    
+}
+
+.menu0 {
     display: inline;
     align-self: center;
     padding: 5px;
@@ -39,6 +45,10 @@ li{
 }
 
 .menu {
+    display: inline;
+    align-self: center;
+    padding: 5px;
+    font-size: 20px;
     color: #ffffff;
     border-left-style:solid;
 
@@ -54,8 +64,15 @@ li{
     border-radius: 100%;
 }
 
+.lang{
+    display: inline;
+    padding: 5px;
+
+}
+
 .icon{
     display: inline;
+    align-self: center;
     width: 20px;
     height: 15px;
     border-left-style: none;
@@ -70,5 +87,86 @@ li{
     display: inline-flex;
     flex-direction: row;
     margin:2% 2% 2% 30%;
+}
+
+@font-face {
+    font-family: StickNoBills;
+    src: url(fuentes/StickNoBills.ttf);
+}
+
+@font-face {
+    font-family: OleoScriptSwashCaps-Bold;
+    src: url(fuentes/OleoScriptSwashCaps-Bold.ttf);
+}
+
+@font-face {
+    font-family: LibreBaskerville-Regular;
+    src: url(fuentes/LibreBaskerville-Regular.ttf);
+}
+
+#Portada{
+    display: flex;
+    align-items: stretch;
+    align-self: center;
+    height: 495px;
+    margin: 2%;
+    font-size: 100px;
+    color: #ffffff;
+    font-family: StickNoBills;
+        
+}
+
+.img1{
+    display: flex;
+    align-self: center;
+    box-sizing: border-box;
+    width: 95%;
+    height: 95%;
+    padding: 0;
+    border-radius: 50%;
+       
+}
+
+.efect{
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    background: radial-gradient(ellipse at center, #780000 60%,#ffffff 80%,#ffffff 100%);
+    border-radius: 50%;
+       
+}
+
+#Info{
+    margin: 5%;
+    height: 570px;
+    align-items: center;
+    font-family: LibreBaskerville-Regular;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight:bolder;
+    
+}
+
+#Mision{
+    padding: 5%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50% ;
+    border-color: #cdcdcd;
+    border-right-style: solid;
+    border-right-width: thick;
 
 }
+
+#Servicios{
+    display: flex;
+    padding: 5%;
+    font-size: 40px;
+    justify-content: right;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50% ;
+    border-color: #cdcdcd;
+    border-left-style: solid;
+    border-left-width: thick;
+    
+}
+
