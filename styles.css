@@ -91,17 +91,17 @@ a:hover{
 
 @font-face {
     font-family: StickNoBills;
-    src: url(fuentes/StickNoBills.ttf);
+    src: url(Fuentes/StickNoBills.ttf);
 }
 
 @font-face {
     font-family: OleoScriptSwashCaps-Bold;
-    src: url(fuentes/OleoScriptSwashCaps-Bold.ttf);
+    src: url(Fuentes/OleoScriptSwashCaps-Bold.ttf);
 }
 
 @font-face {
     font-family: LibreBaskerville-Regular;
-    src: url(fuentes/LibreBaskerville-Regular.ttf);
+    src: url(Fuentes/LibreBaskerville-Regular.ttf);
 }
 
 #Portada{
