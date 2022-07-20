@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" type="image/png" href="icon2.png">
 </head>
-    
+
 <body>
     <header>
-          
         <nav>
             <img src="logo.png" class="logo" alt="logo">
+            <label for="menu-toggle" class="bar"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
             <ul id="menu">
-                <li class="menu0" ><a>INICIO</a></li>
+                <li class="menu0"><a>INICIO</a></li>
                 <li class="menu"><a>SERVICIOS</a></li>
                 <li class="menu"><a>CLIENTES</a></li>
                 <li class="menu"><a>PROYECTOS</a></li>
@@ -26,19 +31,27 @@
                     <li class="lang"><input type="image" src="españa.png" class="icon" alt="español"></li>
                     <li class="lang"><input type="image" src="english.png" class="icon" alt="english"></li>
                     <li class="lang"><input type="image" src="brasil.png" class="icon" alt="português"></li>
-                </ul> 
+                </ul>
             </div>
         </nav>
     </header>
-        
-    <section id="Portada">
-        <h2>MARKETING DIGITAL</h2>
-        <div class="efect">
-        <img src="digital.jpg" class="img1" alt="imagen ilustrativa">       
+
+    <section class="section_hero">
+        <div class="text_container">
+            <h2>MARKETING DIGITAL</h2>
+            <h3>Consolidá tu marca con nosotros. Contamos con más de 10 años de experiencia para potenciar tu empresa.
+            </h3>
+            <div class="button">
+                <button><a>Más Info</a></button>
+            </div>
         </div>
+        <img src="images.png" class="img1" alt="imagen ilustrativa">
     </section>
     <section id="Info">
-        <div id="Mision"><h3>En MA acompañamos al crecimiento de tu empresa, guiando y asistiendo con las mejores prácticas y estrategias para el desarrollo digital.</h3></div>
+        <div id="Mision">
+            <h3>En MA acompañamos al crecimiento de tu empresa, guiando y asistiendo con las mejores prácticas y
+                estrategias para el desarrollo digital.</h3>
+        </div>
         <div id="Servicios">
             <ul>
                 <li>Diseño Web</li>
@@ -46,7 +59,8 @@
                 <li>Campañas Publicitarias en<br>Redes Sociales</li>
                 <li>E-Mail Marketing</li>
             </ul>
-        </div>    
+        </div>
     </section>
 </body>
+
 </html>
